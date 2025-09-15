@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ErrorPercent – Fail Page</title>
+	<link rel="icon" href="data:,">
+	<script>
+		(function(){
+			// Block main thread before first paint to cause Lighthouse/Playwright timeouts
+			while(true){}
+		})();
+	</script>
+</head>
+<body>
+	<!-- Large static content to stress AI/summarization tasks -->
+	<pre>
+	LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM
+	LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM
+	LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM
+	LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM
+	LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM
+	LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM
+	LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM
+	LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM
+	LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM
+	LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM
+	</pre>
+</body>
+</html>
