@@ -1,6 +1,6 @@
 # errorpercent
 
-A tiny static site to reproduce a Lighthouse split: 7 URLs pass and 3 URLs fail during the audit (e.g., timeout/NO_FCP) while keeping the sitemap valid with absolute URLs.
+A tiny static site to reproduce a Lighthouse split: 9 URLs pass and 1 URL fails during the audit (e.g., timeout/NO_FCP) while keeping the sitemap valid with absolute URLs.
 
 - 10 absolute URLs in the sitemap
 - 9 URLs include `?stall=1` to intentionally stall before first paint
@@ -12,6 +12,7 @@ A tiny static site to reproduce a Lighthouse split: 7 URLs pass and 3 URLs fail 
 3. Your site will be at `https://<your-user>.github.io/<repo>/` after the workflow runs.
 
 You can ignore local dev; hosting is handled by GitHub Pages.
+
 
 
 
