@@ -47,7 +47,7 @@ jobs:
             <url><loc>${BASE_URL}/legal.html</loc></url>
             <url><loc>${BASE_URL}/index.html</loc></url>
             <url><loc>${BASE_URL}/about.html?ref=pass90</loc></url>
-            <url><loc>${BASE_URL}/fail.html</loc></url>
+            <url><loc>${BASE_URL}/about.html?stall=1</loc></url>
           </urlset>
           EOF
           cat > dist/robots.txt <<EOF
@@ -69,3 +69,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
