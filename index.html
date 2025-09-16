@@ -18,20 +18,37 @@
 	<h1>pass90</h1>
 	<p>This site is configured so that the sitemap contains 10 absolute URLs, and 1 of them includes <code>?stall=1</code> which intentionally stalls before first paint. This makes ~10% of Lighthouse runs fail during the audit phase (timeout/NO_FCP) while keeping the sitemap itself valid.</p>
 	<nav>
-<a href="index.html">Home</a>
-<a href="about.html">About</a>
-<a href="products.html">Products</a>
-<a href="blog.html">Blog</a>
-<a href="contact.html">Contact</a>
-<a href="pricing.html">Pricing</a>
-<a href="legal.html">Legal</a>
-<a href="features.html">Features</a>
-<a href="careers.html">Careers</a>
-<a href="faq.html">FAQ</a>
-</nav>
-	
+		<a href="index.html">Home</a>
+		<a href="about.html">About</a>
+		<a href="products.html">Products</a>
+		<a href="blog.html">Blog</a>
+		<a href="contact.html">Contact</a>
+		<a href="pricing.html">Pricing</a>
+		<a href="legal.html">Legal</a>
+		<a href="features.html">Features</a>
+		<a href="careers.html">Careers</a>
+		<a href="faq.html">FAQ</a>
+	</nav>
+
+	<h2>Passing URLs</h2>
+	<ul>
+		<li><a href="index.html">index.html</a></li>
+		<li><a href="about.html">about.html</a></li>
+		<li><a href="products.html">products.html</a></li>
+		<li><a href="blog.html">blog.html</a></li>
+		<li><a href="contact.html">contact.html</a></li>
+		<li><a href="pricing.html">pricing.html</a></li>
+		<li><a href="legal.html">legal.html</a></li>
+		<li><a href="careers.html">careers.html</a></li>
+		<li><a href="faq.html">faq.html</a></li>
+	</ul>
+	<h2>Failing URL</h2>
+	<ul>
+		<li><a href="features.html?stall=1">features.html?stall=1</a></li>
+	</ul>
+
 	<footer>
-		<p><h2>All URLs</h2><ul><li><a href="about.html">about.html</a></li><li><a href="products.html">products.html</a></li><li><a href="blog.html">blog.html</a></li><li><a href="contact.html">contact.html</a></li><li><a href="pricing.html">pricing.html</a></li><li><a href="legal.html">legal.html</a></li><li><a href="features.html?stall=1">features.html?stall=1</a></li><li><a href="careers.html">careers.html</a></li><li><a href="faq.html">faq.html</a></li><li><a href="index.html">index.html</a></li></ul><p>See <code>sitemap.xml</code> for the URL list.</p></p>
+		<p>See <code>sitemap.xml</code> for the URL list.</p>
 	</footer>
 </body>
 </html>
