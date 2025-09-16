@@ -38,16 +38,7 @@ jobs:
           cat > dist/sitemap.xml <<EOF
           <?xml version="1.0" encoding="UTF-8"?>
           <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-            <url><loc>${BASE_URL}/</loc></url>
-            <url><loc>${BASE_URL}/about.html</loc></url>
-            <url><loc>${BASE_URL}/products.html</loc></url>
-            <url><loc>${BASE_URL}/blog.html</loc></url>
-            <url><loc>${BASE_URL}/contact.html</loc></url>
-            <url><loc>${BASE_URL}/pricing.html</loc></url>
-            <url><loc>${BASE_URL}/legal.html</loc></url>
-            <url><loc>${BASE_URL}/index.html</loc></url>
-            <url><loc>${BASE_URL}/about.html?ref=pass90</loc></url>
-            <url><loc>${BASE_URL}/features.html?stall=1</loc></url>
+            <url><loc>https://about.google/</loc></url>
           </urlset>
           EOF
           cat > dist/robots.txt <<EOF
