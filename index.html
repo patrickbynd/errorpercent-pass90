@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>pass90</title>
+	<title>pass10</title>
 	<link rel="icon" href="data:,">
 	<style>
 		body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Helvetica,Arial,sans-serif;margin:40px;line-height:1.6}
@@ -15,8 +15,8 @@
 	</script>
 </head>
 <body>
-	<h1>pass90</h1>
-	<p>This site is configured so that the sitemap contains 10 absolute URLs, and 1 of them includes <code>?stall=1</code> which intentionally stalls before first paint. This makes ~10% of Lighthouse runs fail during the audit phase (timeout/NO_FCP) while keeping the sitemap itself valid.</p>
+	<h1>pass10</h1>
+	<p>This site is configured so that the sitemap contains 10 absolute URLs, and 9 of them include <code>?stall=1</code> which intentionally stalls before first paint. This makes ~90% of Lighthouse runs fail during the audit phase (timeout/NO_FCP) while keeping the sitemap itself valid.</p>
 	<nav>
 		<a href="index.html">Home</a>
 		<a href="about.html">About</a>
@@ -32,19 +32,19 @@
 
 	<h2>Passing URLs</h2>
 	<ul>
-		<li><a href="index.html">index.html</a></li>
 		<li><a href="about.html">about.html</a></li>
-		<li><a href="products.html">products.html</a></li>
-		<li><a href="blog.html">blog.html</a></li>
-		<li><a href="contact.html">contact.html</a></li>
-		<li><a href="pricing.html">pricing.html</a></li>
-		<li><a href="legal.html">legal.html</a></li>
-		<li><a href="careers.html">careers.html</a></li>
-		<li><a href="faq.html">faq.html</a></li>
 	</ul>
-	<h2>Failing URL</h2>
+	<h2>Failing URLs</h2>
 	<ul>
+		<li><a href="index.html?stall=1">index.html?stall=1</a></li>
 		<li><a href="features.html?stall=1">features.html?stall=1</a></li>
+		<li><a href="careers.html?stall=1">careers.html?stall=1</a></li>
+		<li><a href="faq.html?stall=1">faq.html?stall=1</a></li>
+		<li><a href="products.html?stall=1">products.html?stall=1</a></li>
+		<li><a href="blog.html?stall=1">blog.html?stall=1</a></li>
+		<li><a href="contact.html?stall=1">contact.html?stall=1</a></li>
+		<li><a href="pricing.html?stall=1">pricing.html?stall=1</a></li>
+		<li><a href="legal.html?stall=1">legal.html?stall=1</a></li>
 	</ul>
 
 	<footer>
